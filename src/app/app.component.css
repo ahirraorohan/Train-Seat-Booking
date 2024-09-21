@@ -1,0 +1,27 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seat {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.available {
+  background-color: green;
+}
+
+.booked {
+  background-color: red;
+}
+
+.row {
+  margin-bottom: 10px;
+}
